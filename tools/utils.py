@@ -78,9 +78,9 @@ def GuessArchitecture():
   elif id == 'i86pc':
     return 'ia32'
   elif id == 'x86_64':
-    return 'ia32'
+    return 'x64'
   elif id == 'amd64':
-    return 'ia32'
+    return 'x64'
   else:
     return None
 
