@@ -642,6 +642,9 @@ PREPARSER_FLAGS = {
       'LIBPATH': ['.'],
       'CCFLAGS': ['-fno-rtti', '-fno-exceptions']
     },
+    'os:freebsd': {
+      'LIBPATH' : ['/usr/local/lib'],
+	},
     'os:win32': {
       'LIBS':         ['winmm', 'ws2_32']
     },
